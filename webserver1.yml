@@ -1,0 +1,7 @@
+---
+- hosts: server2.abc.com
+  user: root
+  sudo: yes
+  tasks:
+  roles:
+      - webserver
